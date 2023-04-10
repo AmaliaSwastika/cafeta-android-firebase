@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project11</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="metodePembayaran">
+        <item>Gopay</item>
+        <item>DANA</item>
+        <item>ShopeePay</item>
+        <item>Kartu Debit/Kredit</item>
+    </string-array>
+
+</resources>
