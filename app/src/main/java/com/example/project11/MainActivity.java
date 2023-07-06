@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.home:
                     replaceFragment(new HomeFragment());
                     break;
+
                 case R.id.profile:
                     replaceFragment(new ProfileFragment());
                     break;

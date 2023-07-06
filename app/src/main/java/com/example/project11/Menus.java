@@ -27,6 +27,15 @@ public class Menus extends AppCompatActivity {
             }
         });
 
+        ImageView bb2 = findViewById(R.id.bb2);
+        bb2.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                Intent intent = new Intent(Menus.this, Cart.class);
+                startActivity(intent);
+            }
+        });
+
         ImageView bb = findViewById(R.id.bb);
         bb.setOnClickListener(new View.OnClickListener() {
 

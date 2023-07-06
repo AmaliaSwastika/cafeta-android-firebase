@@ -12,4 +12,36 @@
         <item>Kartu Debit/Kredit</item>
     </string-array>
 
+    <string-array name="outlets">
+        <item>Jaguar Cafe</item>
+        <item>Specta Cafe</item>
+        <item>Gemilang Cafe</item>
+        <item>Garden Cafe</item>
+        <item>Rame Rame Cafe</item>
+        <item>Kongkow Cafe</item>
+    </string-array>
+
+    <string-array name="person">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+    </string-array>
+
 </resources>

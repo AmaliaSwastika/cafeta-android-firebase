@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class Cart extends AppCompatActivity {
@@ -14,14 +15,25 @@ public class Cart extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cart);
 
-        ImageView bb = findViewById(R.id.bbs);
-        bb.setOnClickListener(new View.OnClickListener() {
+        Button button1 = findViewById(R.id.button1);
+        button1.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                Intent intent = new Intent(Cart.this, DetailPayment.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView bbs = findViewById(R.id.bbs);
+        bbs.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
                 Intent intent = new Intent(Cart.this, Menus.class);
                 startActivity(intent);
             }
         });
+
+
    }
 
 

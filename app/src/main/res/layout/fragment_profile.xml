@@ -14,37 +14,37 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:gravity="center_horizontal"
-            android:text="JAMAD ALLAN"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@color/brownDark"/>
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:text="JAMAD ALLAN"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/brownDark"/>-->
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="50dp"
-            android:src="@drawable/satekam" />
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:src="@drawable/satekam" />-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:gravity="center_horizontal"
-            android:text="amad@gmail.com "
-            android:textSize="15sp"
-            android:textColor="@color/brownDark"/>
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:text="amad@gmail.com "-->
+<!--            android:textSize="15sp"-->
+<!--            android:textColor="@color/brownDark"/>-->
 
         <Button
             android:id="@+id/buts"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="250dp"
             android:backgroundTint="@color/brownDark"
             android:gravity="center_horizontal"
             android:text="Logout"

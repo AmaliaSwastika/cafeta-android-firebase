@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFAFA"
+    tools:context=".Reservation">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="413dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:layout_marginBottom="595dp"
+        android:src="@drawable/gelombang3"/>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-27dp"
+        android:layout_marginBottom="648dp"
+        android:src="@drawable/gelombang4"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginBottom="575dp"
+        android:gravity="center"
+        android:text="RESERVATION"
+        android:textColor="@color/brownDark"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="508dp"
+        android:background="@drawable/edt_background"
+        android:hint="Input Full Name"
+        android:paddingLeft="20dp"
+        android:textColor="@color/brownDark" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="446dp"
+        android:background="@drawable/edt_background"
+        android:hint="Input Email"
+        android:paddingLeft="20dp"
+        android:textColor="@color/brownDark" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="382dp"
+        android:background="@drawable/edt_background"
+        android:hint="Input Number Phone"
+        android:inputType="phone"
+        android:paddingLeft="20dp"
+        android:textColor="@color/brownDark" />
+
+    <Spinner
+        android:id="@+id/spinnerOutlet"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="340dp" />
+
+    <Spinner
+        android:id="@+id/spinnerPerson"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="298dp" />
+
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="232dp"
+        android:background="@drawable/edt_background"
+        android:focusable="false"
+        android:hint="Input Date"
+        android:inputType="date"
+        android:paddingLeft="20dp"
+        android:textColor="@color/brownDark" />
+
+    <Spinner
+        android:id="@+id/spinnerTime"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="190dp" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="122dp"
+        android:backgroundTint="@color/brownDark"
+        android:text="RESERVATION NOW"
+        android:textColor="@color/cream" />
+
+    <Button
+        android:id="@+id/buttonPindah"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="65dp"
+        android:backgroundTint="@color/brownDark"
+        android:text="RESCHEDULE"
+        android:textColor="@color/cream" />
+
+</RelativeLayout>

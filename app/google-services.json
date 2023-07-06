@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "85348453074",
+    "firebase_url": "https://cafe-b9081-default-rtdb.firebaseio.com",
+    "project_id": "cafe-b9081",
+    "storage_bucket": "cafe-b9081.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85348453074:android:6db0c3fca629ff0b997b0b",
+        "android_client_info": {
+          "package_name": "com.example.cobasx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85348453074-gf9quuhintn44gao089rtod1f49a3g0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDQM2gJUWCyxhVieEtYwLWTGNnQT5VjJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85348453074-gf9quuhintn44gao089rtod1f49a3g0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85348453074:android:93eb370373ed4dc3997b0b",
+        "android_client_info": {
+          "package_name": "com.example.project11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85348453074-gf9quuhintn44gao089rtod1f49a3g0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDQM2gJUWCyxhVieEtYwLWTGNnQT5VjJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85348453074-gf9quuhintn44gao089rtod1f49a3g0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85348453074:android:3f0379f12ee11929997b0b",
+        "android_client_info": {
+          "package_name": "com.example.rse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85348453074-gf9quuhintn44gao089rtod1f49a3g0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDQM2gJUWCyxhVieEtYwLWTGNnQT5VjJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85348453074-gf9quuhintn44gao089rtod1f49a3g0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
